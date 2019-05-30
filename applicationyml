@@ -1,0 +1,20 @@
+spring:
+    profiles:
+        active:
+        - dev
+        
+        
+---
+spring:
+    profiles: dev
+    application:
+        name:sass-config-dev
+       
+---
+spring:
+    profiles: test
+    application:
+        name:sass-config-test
+        
+        
+# 以utf-8的格式保存文件
