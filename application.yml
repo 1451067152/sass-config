@@ -6,12 +6,12 @@ spring:
 spring:
     profiles: dev
     application:
-        name:sass-config-dev
+        name: sass-config-dev
 ---
 spring:
     profiles: test
     application:
-        name:sass-config-test
+        name: sass-config-test
         
         
 # 以utf-8的格式保存文件   测试第二次修改
